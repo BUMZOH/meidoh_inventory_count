@@ -78,4 +78,6 @@ result_df.to_clipboard(index=False, header=False)
 print()
 print("集計結果をクリップボードにコピーしました。")
 print("貼り付け先のExcelで Ctrl + V してください。")
+input("ENTER キーを押して終了してください。")
+
 
